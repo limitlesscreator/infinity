@@ -1,0 +1,142 @@
+body {
+  background: darkgrey;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.main {
+  height: 1920px;
+  width: 1080px;
+  background: white;
+  margin-left: 25%;
+}
+
+header {
+  height: 170px;
+  background: #2A4A95;
+}
+
+.titleDoc {
+  height: 40px;
+  text-align: center;
+  color: white;
+  background: #25BAC0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.unstyledTable {
+  height: 808px;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.unstyledTable td, .unstyledTable th {
+  border: 1px solid #AAAAAA;
+  border-collapse: collapse;
+}
+
+td {
+  height: 110px;
+}
+
+.unstyledTable thead {
+  background: #ededed;
+}
+
+.unstyledTable thead th {
+  font-weight: normal;
+}
+
+.squere {
+  display: inline-block;
+  height: 20px;
+  width: 40px;
+  background: #B5D8EB;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.flex {
+  display: flex;
+}
+.flex div:first-child div {
+  margin-right: 10px;
+}
+
+.video {
+  position: relative;
+  width: 100%;
+  height: 290px;
+}
+
+.video-background {
+  background: #000;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.video-foreground {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: block;
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .video-foreground {
+    height: 300%;
+    top: -100%;
+    overflow: hidden;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  .video-foreground {
+    width: 300%;
+    left: -100%;
+    overflow: hidden;
+
+  }
+}
+@media all and (max-width: 600px) {
+  .vid-info {
+    width: 50%;
+    padding: 0.5rem;
+  }
+  .vid-info h1 {
+    margin-bottom: 0.2rem;
+  }
+}
+@media all and (max-width: 500px) {
+  .vid-info .acronym {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
