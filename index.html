@@ -24,8 +24,21 @@
 <body>
 
   <div class="main">
-    <header></header>
-    <div class="titleDoc">Врачи и специалисты</div>
+    <header>
+      <div style="display: flex; justify-content: space-between;">
+        <img width="180" src="./img/logo.svg" alt="logo">
+        <div style="display: flex;justify-content: center; color: white; font-size: 20px;">
+          <span style="margin-right: 10px;">Погода:</span>
+          <div class="weather">
+             <span class="celcia">0</span>°C <img class="specialImg" src="" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="title">
+        РАСПИСАНИЕ
+      </div>
+    </header>
+    <div style="border-radius: 5px 5px 0 0" class="titleDoc">Врачи и специалисты</div>
 
     <div class="tableBlock">
       <table class="unstyledTable">
@@ -129,88 +142,6 @@
           <td>10:00 - 20:00</td>
           <td>10:00 - 20:00</td>
           <td>10:00 - 20:00</td>
-          <td>cell9_1</td>
-          <td>cell10_1</td>
-        </tr>
-        <tr>
-          <td>Невролог</td>
-          <td>38</td>
-          <td>Иванов Иван<br />Иванович</td>
-          <td><div class="flex">
-            <div >
-              <div class="section">
-                11:00 <span class="squere"></span> <br>
-              </div>
-              <div class="section">
-                11:00 <span class="squere"></span> <br>
-              </div>
-              <div class="section">
-                11:00 <span class="squere"></span> <br>
-              </div>
-              <div class="section">
-                11:00 <span class="squere"></span> <br>
-              </div>
-            </div>
-            <div>
-              <div class="section">
-                11:00 <span class="squere"></span> <br>
-              </div>
-              <div class="section">
-                11:00 <span class="squere"></span> <br>
-              </div>
-              <div class="section">
-                11:00 <span class="squere"></span> <br>
-              </div>
-              <div class="section">
-                11:00 <span class="squere"></span> <br>
-              </div>
-            </div>
-          </div></td>
-          <td>10:00 - 20:00</td>
-          <td>10:00 - 20:00</td>
-          <td>10:00 - 20:00</td>
-          <td>10:00 - 20:00</td>
-          <td>10:00 - 20:00</td>
-          <td>10:00 - 20:00</td>
-        </tr>
-        <tr>
-          <td>Невролог</td>
-          <td>38</td>
-          <td>Иванов Иван<br />Иванович</td>
-          <td><div class="flex">
-            <div >
-              <div class="section">
-                11:00 <span class="squere"></span> <br>
-              </div>
-              <div class="section">
-                11:00 <span class="squere"></span> <br>
-              </div>
-              <div class="section">
-                11:00 <span class="squere" style="background: black"></span> <br>
-              </div>
-              <div class="section">
-                11:00 <span class="squere"></span> <br>
-              </div>
-            </div>
-            <div>
-              <div class="section">
-                11:00 <span class="squere"></span> <br>
-              </div>
-              <div class="section">
-                11:00 <span class="squere" style="background: black"></span> <br>
-              </div>
-              <div class="section">
-                11:00 <span class="squere" style="background: black"></span> <br>
-              </div>
-              <div class="section">
-                11:00 <span class="squere" style="background: black"></span> <br>
-              </div>
-            </div>
-          </div></td>
-          <td>10:00 - 20:00</td>
-          <td>10:00 - 20:00</td>
-          <td>10:00 - 20:00</td>
-          <td>10:00 - 20:00</td>
           <td>10:00 - 20:00</td>
           <td>10:00 - 20:00</td>
         </tr>
@@ -268,7 +199,7 @@
                 11:00 <span class="squere"></span> <br>
               </div>
               <div class="section">
-                11:00 <span class="squere"></span> <br>
+                11:00 <span class="squere" style="background: black"></span> <br>
               </div>
               <div class="section">
                 11:00 <span class="squere"></span> <br>
@@ -279,13 +210,13 @@
                 11:00 <span class="squere"></span> <br>
               </div>
               <div class="section">
-                11:00 <span class="squere"></span> <br>
+                11:00 <span class="squere" style="background: black"></span> <br>
               </div>
               <div class="section">
-                11:00 <span class="squere"></span> <br>
+                11:00 <span class="squere" style="background: black"></span> <br>
               </div>
               <div class="section">
-                11:00 <span class="squere"></span> <br>
+                11:00 <span class="squere" style="background: black"></span> <br>
               </div>
             </div>
           </div></td>
@@ -426,14 +357,251 @@
     <div class="video">
       <div class="video-background">
         <div class="video-foreground">
-          <iframe src="http://www.youtube.com/embed/QC8iQqtG0hg?autoplay=1&mute=1&controls=0&loop=1" allow="autoplay"></iframe>
+<!--        !!сыылка 'QC8iQqtG0hg' должна повторяться в двух местах снизу  для автоповтора-->
+          <iframe src="http://www.youtube.com/embed/QC8iQqtG0hg?autoplay=1&loop=1&mute=1&controls=0&playlist=QC8iQqtG0hg" frameborder="0" allow="autoplay" allowfullscreen></iframe>
 
 
         </div>
       </div>
     </div>
+    <div class="titleDoc" style="position: relative; z-index: 5;">Стоматология</div>
 
-  <!-- Add your site or application content here -->
+    <div class="tableBlock" style="position: relative; top: -20px;">
+      <table class="unstyledTable2">
+        <thead style="opacity: 0; ">
+        <tr>
+          <th>Специальность</th>
+          <th>Кабинет</th>
+          <th>ФИО и фото</th>
+          <th>Понедельник</th>
+          <th>Вторник</th>
+          <th>Среда</th>
+          <th>Четверг</th>
+          <th>Пятница</th>
+          <th>Суббота</th>
+          <th>Восресенье</th>
+        </tr>
+        </thead>
+        <tfoot>
+        <tr>
+          <td><span style="font-weight: 400;">Невролог</span></td>
+          <td><span style="font-weight: 400;">38</span></td>
+          <td><span style="font-weight: 400;">Иванов Иван</span><br style="font-weight: 400;" /><span style="font-weight: 400;">Иванович</span></td>
+          <td><div class="flex">
+            <div >
+              <div class="section">
+                11:00 <span class="squere"></span> <br>
+              </div>
+              <div class="section">
+                11:00 <span style="background: black" class="squere"></span> <br>
+              </div>
+              <div class="section">
+                11:00 <span style="background: black" class="squere"></span> <br>
+              </div>
+              <div class="section">
+                11:00 <span class="squere"></span> <br>
+              </div>
+            </div>
+            <div>
+              <div class="section">
+                11:00 <span class="squere"></span> <br>
+              </div>
+              <div class="section">
+                11:00 <span class="squere"></span> <br>
+              </div>
+              <div class="section">
+                11:00 <span class="squere"></span> <br>
+              </div>
+              <div class="section">
+                11:00 <span class="squere"></span> <br>
+              </div>
+            </div>
+          </div></td>
+          <td><span style="font-weight: 400;">10:00 - 20:00</span></td>
+          <td><span style="font-weight: 400;">10:00 - 20:00</span></td>
+          <td><span style="font-weight: 400;">10:00 - 20:00</span></td>
+          <td><span style="font-weight: 400;">10:00 - 20:00</span></td>
+          <td><span style="font-weight: 400;">10:00 - 20:00</span></td>
+          <td><span style="font-weight: 400;">10:00 - 20:00</span></td>
+        </tr>
+        </tfoot>
+        <tbody>
+        <tr>
+          <td>Невролог</td>
+          <td>38</td>
+          <td>
+            <p>Иванов Иван<br />Иванович</p>
+          </td>
+          <td>
+            <div class="flex">
+              <div >
+                <div class="section">
+                  11:00 <span class="squere"></span> <br>
+                </div>
+                <div class="section">
+                  11:00 <span class="squere" style="background: black"></span> <br>
+                </div>
+                <div class="section">
+                  11:00 <span class="squere" style="background: black"></span> <br>
+                </div>
+                <div class="section">
+                  11:00 <span class="squere" style="background: black"></span> <br>
+                </div>
+              </div>
+              <div>
+                <div class="section">
+                  11:00 <span class="squere"></span> <br>
+                </div>
+                <div class="section">
+                  11:00 <span class="squere"></span> <br>
+                </div>
+                <div class="section">
+                  11:00 <span class="squere"></span> <br>
+                </div>
+                <div class="section">
+                  11:00 <span class="squere"></span> <br>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td>10:00 - 20:00</td>
+          <td>10:00 - 20:00</td>
+          <td>10:00 - 20:00</td>
+          <td>10:00 - 20:00</td>
+          <td>10:00 - 20:00</td>
+          <td>10:00 - 20:00</td>
+        </tr>
+        <tr>
+          <td>Невролог</td>
+          <td>38</td>
+          <td>Иванов Иван<br />Иванович</td>
+          <td><div class="flex">
+            <div >
+              <div class="section">
+                11:00 <span class="squere"></span> <br>
+              </div>
+              <div class="section">
+                11:00 <span class="squere"></span> <br>
+              </div>
+              <div class="section">
+                11:00 <span class="squere"></span> <br>
+              </div>
+              <div class="section">
+                11:00 <span class="squere"></span> <br>
+              </div>
+            </div>
+            <div>
+              <div class="section">
+                11:00 <span class="squere"></span> <br>
+              </div>
+              <div class="section">
+                11:00 <span class="squere"></span> <br>
+              </div>
+              <div class="section">
+                11:00 <span class="squere"></span> <br>
+              </div>
+              <div class="section">
+                11:00 <span class="squere"></span> <br>
+              </div>
+            </div>
+          </div></td>
+          <td>10:00 - 20:00</td>
+          <td>10:00 - 20:00</td>
+          <td>10:00 - 20:00</td>
+          <td>10:00 - 20:00</td>
+          <td>10:00 - 20:00</td>
+          <td>10:00 - 20:00</td>
+        </tr>
+        <tr>
+          <td>Невролог</td>
+          <td>38</td>
+          <td>Иванов Иван<br />Иванович</td>
+          <td><div class="flex">
+            <div >
+              <div class="section">
+                11:00 <span class="squere"></span> <br>
+              </div>
+              <div class="section">
+                11:00 <span class="squere"></span> <br>
+              </div>
+              <div class="section">
+                11:00 <span class="squere" style="background: black"></span> <br>
+              </div>
+              <div class="section">
+                11:00 <span class="squere"></span> <br>
+              </div>
+            </div>
+            <div>
+              <div class="section">
+                11:00 <span class="squere"></span> <br>
+              </div>
+              <div class="section">
+                11:00 <span class="squere" style="background: black"></span> <br>
+              </div>
+              <div class="section">
+                11:00 <span class="squere" style="background: black"></span> <br>
+              </div>
+              <div class="section">
+                11:00 <span class="squere" style="background: black"></span> <br>
+              </div>
+            </div>
+          </div></td>
+          <td>10:00 - 20:00</td>
+          <td>10:00 - 20:00</td>
+          <td>10:00 - 20:00</td>
+          <td>10:00 - 20:00</td>
+          <td>10:00 - 20:00</td>
+          <td>10:00 - 20:00</td>
+        </tr>
+        <tr>
+          <td>Невролог</td>
+          <td>38</td>
+          <td>Иванов Иван<br />Иванович</td>
+          <td><div class="flex">
+            <div >
+              <div class="section">
+                11:00 <span class="squere"></span> <br>
+              </div>
+              <div class="section">
+                11:00 <span class="squere"></span> <br>
+              </div>
+              <div class="section">
+                11:00 <span class="squere"></span> <br>
+              </div>
+              <div class="section">
+                11:00 <span class="squere"></span> <br>
+              </div>
+            </div>
+            <div>
+              <div class="section">
+                11:00 <span class="squere"></span> <br>
+              </div>
+              <div class="section">
+                11:00 <span class="squere"></span> <br>
+              </div>
+              <div class="section">
+                11:00 <span class="squere"></span> <br>
+              </div>
+              <div class="section">
+                11:00 <span class="squere"></span> <br>
+              </div>
+            </div>
+          </div></td>
+          <td>10:00 - 20:00</td>
+          <td>10:00 - 20:00</td>
+          <td>10:00 - 20:00</td>
+          <td>10:00 - 20:00</td>
+          <td>10:00 - 20:00</td>
+          <td>10:00 - 20:00</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+
+</div>
+
   <script src="js/app.js"></script>
 
 </body>
